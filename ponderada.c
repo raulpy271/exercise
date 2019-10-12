@@ -4,14 +4,12 @@
 int main () {
 
 
-  float result = 0;
-  float peso_soma = 0;
-
-
   //mensagem inicial
   printf("\n     MEDIA PONDERADA\n\nformula:\n\n   (x1 * p1) + (x2 * p2) + ... + (xn * pn)\n  -------------------------------------------\n              p1 + p2 + ... + pn\n\ndigite 0 para ver o resultado\n\n");
-
-
+  
+  
+  float result = 0;
+  float peso_soma = 0;
   int contador = 1;
   float valor = 1;
   float peso = 1;
