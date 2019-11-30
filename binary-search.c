@@ -1,4 +1,3 @@
-
 //bubblesort and binary search algorithm
 
 #include <stdio.h>
@@ -68,8 +67,11 @@ if (response){
 
 bubblesort(numeros);
 
-int result=0, start = 0, numero_buscado =666;
-binary_search(numeros, start, LENGHT, numero_buscado, &result);
+printf("Qual numero voce quer buscar? ");
+scanf("%d", &response);
+
+int result=0, start = 0;
+binary_search(numeros, start, LENGHT, response, &result);
 return 0;
 }
 
