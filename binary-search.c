@@ -60,7 +60,7 @@ printf("quer digitar o vetor [1/0]: ");
 scanf("%d", &response);
 
 if (response){
-  printf("Digite  dez nUmeros para preencher:\n");
+  printf("Digite  20 nUmeros para preencher:\n");
   for (i = 0; i < LENGHT; i++) {
   scanf("%d", &numeros[i]);}
 }
